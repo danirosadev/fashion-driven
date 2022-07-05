@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+.topo {
+    width: 100%;
+    height: 89px;
+    background-color: #404EED;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 784px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left img {
+    position: relative;
+}
+
+.left p {
+    margin-top: 15px;
+}
+
+.modelo, .gola, .tecido {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modelo div, .gola div, .tecido div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.selecionado {
+    border: 5px solid #404EED;
+}
+
+.figura {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    width: 50%;
+    height: 784px;
+    background-color: #404EED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra {
+    width: 100%;
+    height: 342px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagens {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.imagens div {
+    width: 201px;
+    height: 236px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+input {
+    width: 394px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    border: none;
+    padding-left: 15px;
+}
+
+input::placeholder {
+    color: #818181;
+    font-size: 14px;
+}
+
+button {
+    width: 398px;
+    height: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #C4C4C4;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-selecionado {
+    background-color: #404EED;
+}
