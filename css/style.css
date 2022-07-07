@@ -60,6 +60,8 @@
 
 .selecionado {
     border: 5px solid #404EED;
+    border-radius: 50%;
+    padding: 5px;
 }
 
 .figura {
