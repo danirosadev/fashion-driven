@@ -27,10 +27,11 @@
 
 .left img {
     position: relative;
+    margin-top:45px;
 }
 
 .left p {
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 .modelo, .gola, .tecido {
@@ -60,8 +61,6 @@
 
 .selecionado {
     border: 5px solid #404EED;
-    border-radius: 50%;
-    padding: 5px;
 }
 
 .figura {
